@@ -369,8 +369,11 @@ img {
 
 .work .list {
     display: flex;
-    width: 370px;
     gap: 30px;
+}
+
+.work .item {
+    width: 370px;
 }
 
 .work-subtitle {
@@ -427,8 +430,10 @@ img {
 }
 
 .team-member-desc {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 32px;
+    /* padding-bottom: 30px;
+    padding-right: 32px;
+    padding-left: 32px; */
 }
 
 .team-member {
@@ -494,6 +499,10 @@ img {
 .clients.list {
     display: flex;
     gap: 30px;
+}
+
+.clients.firm {
+    width: 170px;
 }
 
 .clients-link {
